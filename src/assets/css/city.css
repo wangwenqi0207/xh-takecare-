@@ -1,0 +1,73 @@
+.link_city{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.9rem;
+  border-bottom: 1px #acacac solid;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  font-size: .65rem;
+  }
+  .chooseCity{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #666;
+  }
+  .boxcity{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top:0;
+    height: 60%;
+    z-index: 100;
+    background: #ffffff;
+  }
+  .citys{
+    border-top: 1px solid #666; 
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #ffffff;
+  }
+  .province{
+    height: 100%;
+  }
+  .citys::-webkit-scrollbar {
+    display: none;
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+ li{
+  list-style: none;
+  margin-top: .7rem;
+  font-size: .8rem;
+}
+.chooseTit {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  background: #448ff7;
+  align-items: center;
+}
+.chooseTit p{
+  color: #ffffff;
+  font-size: 1rem;
+}
+.mask{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .7;
+  top:0;
+  left: 0;
+  z-index: 90;
+}
+
+ 

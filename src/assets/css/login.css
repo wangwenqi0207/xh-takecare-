@@ -1,0 +1,64 @@
+.login{
+    width: 100%；
+  }
+  .login_title{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-left:1.5rem;
+  }
+  .login form{
+    margin-top: 1.2rem;
+  }
+  .login_input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .login_input .phone_number,.login_input .check_code{
+    width: 90%;
+    height: 1.9rem;
+    font-size: .6rem;
+    background: #f2f2f2;
+    border-radius: 0.2rem;
+    text-indent: .6rem;
+    font-size: 0.7rem;
+  }
+  .login_input2{
+    margin-top: 0.5rem;
+    position: relative;
+    display: flex;
+  }
+  .login_input2 .get_code{
+    position: absolute;
+    font-size: .7rem;
+    background: #448ff7;
+    width: 4.2rem;
+    height: 1.3rem;
+    color: white;
+    border-radius: 0.2rem;
+    right: 8%;
+  
+  }
+  .get_code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .login_next{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .login_next input{
+    width: 90%;
+    height: 1.9rem;
+    font-size: .6rem;
+    border-radius: 0.2rem;
+    font-size: 0.6rem;
+    background: #448ff7;
+    color: white;
+  }
+  .login_input .code_active{
+      background: #ccc;
+  }
